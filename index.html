@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apenas um site de exemplo</title>
+    <link rel="stylesheet/css" href="style.css">
+</head>
+<body>
+<div>
+<a href="sobre.html#activate"
+       target="target-iframe"
+       onclick="frames['target-iframe'].document.getElementById('activate')
+                .scrollIntoView();return false">Sobre</a>
+    
+    <a href="blog.html#activate"
+    target="target-iframe"
+    onclick="frames['target-iframe'].document.getElementById('activate')
+             .scrollIntoView();return false">Blog</a>
+
+<a href="status.html#activate"
+target="target-iframe"
+onclick="frames['target-iframe'].document.getElementById('activate')
+         .scrollIntoView();return false">Status do serviço</a>
+
+<a href="links.html#activate"
+target="target-iframe"
+onclick="frames['target-iframe'].document.getElementById('activate')
+         .scrollIntoView();return false">Links externos</a>
+
+
+<a href="fale.html#activate"
+target="target-iframe"
+onclick="frames['target-iframe'].document.getElementById('activate')
+         .scrollIntoView();return false">Fale Conosco</a>
+
+
+
+
+
+    <a href="home.html#activate"
+    target="target-iframe"
+    onclick="frames['target-iframe'].document.getElementById('activate')
+             .scrollIntoView();return false">Voltar a Home</a>
+
+</div>
+
+<div class="iframe-widget">
+<iframe src="home.html" class="iframe-widget" name="target-iframe" width="100%" height="500"></iframe>
+</div>
+
+</body>
+</html>
