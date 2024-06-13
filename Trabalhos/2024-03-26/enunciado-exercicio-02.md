@@ -1,3 +1,16 @@
+## Objetivo
+
+- Demonstrar as habilidades no uso do Microsoft Excel:
+
+- Manipulação de Planilhas;
+
+- Manipulação de arquivos .csv; 
+
+- Uso de fórmulas avançadas.
+
+
+## Proposta
+
 No dia de ontem, ficamos sabendo que houve um ataque hacker no nosso site de OTA (Online Travel Agency), o que ocasionou a criação de algumas compras de passagens aéreas inválidas. O time de Segurança está atuando, mas para adiantar, enviou a nós um relatório com algumas compras suspeitas. Precisamos formatar o relatório e enviar a gestão.
 Entende-se por suspeita toda compra cujo Trigrama (IATA) é inválido ou ZERO.
 
