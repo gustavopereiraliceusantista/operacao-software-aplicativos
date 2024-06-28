@@ -11,7 +11,6 @@ Links uteis para saber um pouco mais sobre comandos no GNU/Linux:
 [Como instalar o WSL (Windows Subsystem for Linux) no Windows](https://learn.microsoft.com/pt-br/windows/wsl/install)
 
 
-
 ## Outros links interessantes: 
 
 
